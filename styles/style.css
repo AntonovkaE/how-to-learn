@@ -49,11 +49,6 @@ html {
   background-color: var(--basic-white);
 }
 
-.logo {
-  width: 183px;
-  height: 32px;
-}
-
 .header {
   position: relative;
   height: 100vh;
@@ -71,9 +66,12 @@ html {
 .header__title {
   margin-left: var(--gap-medium);
   width: 730px;
+  padding: 0;
 }
 
 .logo_place_header {
+  width: 183px;
+  height: 32px;
   position: absolute;
   top: var(--gap-small);
   left: var(--gap-medium);
@@ -140,10 +138,12 @@ html {
 .two-columns {
   width: 80%;
   margin: 0 auto;
+  padding: 0;
 }
 
 .two-columns__brief {
   margin: 0;
+  padding: 0;
   width: 175px;
   font-size: 0.75rem;
   line-height: 1.2;
