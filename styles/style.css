@@ -369,10 +369,7 @@
   margin: 0 auto;
   height: 100%;
 }
-/* .footer__column_content {
 
-
-} */
 .footer__column_content_copyright {
   flex-basis: 711px;
   display: flex;
