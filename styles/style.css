@@ -67,13 +67,6 @@
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-  background-color: var(--special);
-  z-index: 1;
-}
-
 .header__subtitle {
   position: absolute;
   bottom: var(--gap-small);
@@ -95,13 +88,6 @@
   text-decoration: underline;
 }
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
 
 .header__main-illustration {
   width: 756px;
@@ -328,9 +314,11 @@
 
 .table__cell_theme_dark {
   width: 200px;
+  color: white;
   margin: 80px 0 0;
   padding: 0;
 }
+
 
 .table__heading_theme_dark {
   margin: 0;
