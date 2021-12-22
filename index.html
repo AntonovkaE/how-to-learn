@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="styles/normalize.css">
-  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <link rel="stylesheet" type="text/css" href="pages/index.css">
   <title>Научиться учиться</title>
 </head>
 <body>
@@ -21,9 +20,10 @@
       </p>
 
       <img class="header__main-illustration" alt="Картина 'Опять Двойка'" src="images/header-image.png">
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
     </header>
     <main class="content">
+
       <section class="description flex">
         <div class="two-columns flex">
           <h2 class="two-columns__brief">
@@ -41,6 +41,57 @@
             </p>
           </div>
         </div>
+      </section>
+
+      <section class="techniques">
+        <h2 class="section-title">Техники обучения</h2>
+        <p class="section-subtitle">Пять практик от Барбары Оакли</p>
+        <ul class="cards">
+          <div class="cards__item">
+            <img class="cards__image" alt="Книга" src="images/cards-attention.png">
+            <h3 class="cards__title">Два вида внимания</h3>
+            <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
+          </div>
+          <div class="cards__item">
+            <img class="cards__image" alt="статуя думающего мальчика" src="images/cards-recall.png">
+            <h3 class="cards__title">Recall</h3>
+            <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
+          </div>
+          <div class="cards__item">
+            <img class="cards__image" alt="мост" src="images/cards-interliving.png">
+            <h3 class="cards__title">Интерливинг</h3>
+            <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
+          </div>
+          <div class="cards__item">
+            <img class="cards__image" alt="человек в странном помещении" src="images/cards-question.png">
+            <h3 class="cards__title">Вопросы</h3>
+            <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.
+            </p>
+          </div>
+          <div class="cards__item">
+            <img class="cards__image" alt="Книги" src="images/cards-competence.png">
+            <h3 class="cards__title">Иллюзия компетентности</h3>
+            <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.
+            </p>
+          </div>
+        </ul>
+      </section>
+
+      <section class="video">
+        <h2 class="section-title">Видео нa TED</h2>
+        <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
+        <div class="video__iframes flex">
+          <iframe id="first-video" type="text/html" width="515px" height="316px"  frameborder="0" class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU"></iframe>
+          <iframe id="second-video" type="text/html" width="515px" height="316px"  frameborder="0" class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY"></iframe>
+        </div>
+      </section>
+
+      <section class="feynman">
+        <h2 class="feynman__title">Метод Фейнмана</h2>
+        <p class="feynman__subtitle">Выучить и не забыть.</p>
+        <a href="#" class="feynman__link">Подробнее &rarr;</a>
+        <img alt="Фото Фейнмана" src="images/feynman.png" class="feynman__img">
+
       </section>
 
       <section class="digits">
@@ -88,13 +139,7 @@
         </div>
       </section>
 
-      <section class="feynman">
-        <h2 class="feynman__title">Метод Фейнмана</h2>
-        <p class="feynman__subtitle">Выучить и не забыть.</p>
-        <a href="#" class="feynman__link">Подробнее &rarr;</a>
-        <img alt="Фото Фейнмана" src="images/feynman.png" class="feynman__img">
 
-      </section>
 
       <section class="kaufman">
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>

@@ -1,0 +1,36 @@
+:root {
+    --basic-black: #000000;
+    --basic-grey: #1f1f1f;
+    --basic-white: #ffffff;
+    --extra-light: #f2f2f2;
+    --special: #2f80ed;
+    --gap-xs: 20px;
+    --gap-small: 30px;
+    --gap-medium: 64px;
+
+  }
+
+
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.page {
+    min-width: 1100px;
+    /* мы ещё не умеем делать мобильную версию сайта, */
+    /* поэтому выше установлена минимальная ширина страницы */
+    max-width: 1600px;
+    /* выше установили ограничение по максимальной ширине */
+    margin: 0 auto;
+    /* выше для экранов больше 1600px отцентрировали весь контент */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: var(--basic-white);}

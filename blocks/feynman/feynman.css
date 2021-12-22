@@ -1,0 +1,8 @@
+.feynman {
+  min-height: 890px;
+  position: relative;
+  margin: 100px 0 0;
+  background-color: var(--extra-light);
+  box-sizing: border-box;
+  padding: 100px 0 0;
+}
