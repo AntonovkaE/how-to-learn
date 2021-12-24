@@ -3,7 +3,3 @@
   text-decoration: none;
   display: block;
 }
-
-.footer__column-link:hover {
-  text-decoration: underline;
-}

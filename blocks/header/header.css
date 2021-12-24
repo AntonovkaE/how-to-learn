@@ -6,4 +6,5 @@
     max-height: 756px;
     background-color: var(--extra-light);
     overflow: hidden;
+    align-items: center;
   }
