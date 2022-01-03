@@ -4,9 +4,3 @@
     left: var(--gap-medium);
     z-index: 1;
 }
-
-
-.logo {
-    width: 183px;
-    height: 32px;
-}
